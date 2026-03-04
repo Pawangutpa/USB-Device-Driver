@@ -35,17 +35,17 @@ cat /dev/pawan_usb
 
 # Project Structure
 
-pawan-usb-driver/
-│
-├── src/
-│ └── pawan_usb_driver.c
-│
-├── include/
-│ └── pawan_usb_driver.h
-│
-├── Makefile
-│
-└── README.md
+ pawan-usb-driver/
+ │
+ ├── src/
+ │ └── pawan_usb_driver.c
+ │
+ ├── include/
+ │ └── pawan_usb_driver.h
+ │
+ ├── Makefile
+ │
+ └── README.md
 
 
 
@@ -165,5 +165,6 @@ Show device nodes:
 ls /dev
 
 Show module info:
+
 
 modinfo pawan_usb_driver.ko
